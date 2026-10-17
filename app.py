@@ -47,7 +47,7 @@ if 'step' not in st.session_state:
     st.session_state.step = 1
 
 # Header
-st.markdown("<h1 class='main-title'>🎉 Happy Birthday! 🎈</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-title'>🎉 Happy Birthday Atharva! 🎈</h1>", unsafe_allow_html=True)
 st.markdown("<p class='sub-title'>A Special Surprise Just For You ✨</p>", unsafe_allow_html=True)
 st.divider()
 
@@ -129,7 +129,7 @@ elif st.session_state.step == 4:
 elif st.session_state.step == 5:
     st.balloons()
     st.snow()
-    st.success("🎉 Happy Birthday Once Again! Hope you enjoyed the surprise! ❤️")
+    st.success("🎉 Happy Birthday Once Again Atharva! Hope you enjoyed the surprise! ❤️")
     
     st.image("https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600", caption="Have a Fantastic Year Ahead!")
     
